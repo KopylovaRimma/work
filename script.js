@@ -1,6 +1,6 @@
 'use strict';
 let a1 = 7 + 2, a2 = 7 - 3, a3 = 2 * 4, a4 = 4 / 2;
-console.log(a1, a2, a3, a4)
+console.log(`a1 = ${a1}, a2 = ${a2}, a3 = ${a3}, a4 = ${a4}`)
 
 let w = 23, h = 10, S = w * h;
 console.log(S)
@@ -33,7 +33,7 @@ let str = 'abcde';
 console.log(str[0], str[2], str[4])
 
 let min = 60, hour = min * 60, day = hour * 24, mounth = day * 30;
-console.log(hour, day, mounth)
+console.log(`В одном часу ${hour} секунд, в одном дне ${day} секунд, в одном месяце ${mounth} секунд`)
 
 let num = 47;
 num += 7;
